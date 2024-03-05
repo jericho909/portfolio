@@ -1,5 +1,10 @@
 <script>
-
+    import Step from "./Step.svelte";
+    let steps = [
+        {name: 'Veterinary Management System', icon: 'fa-solid fa-shield-dog'},
+        {name: 'Tourism Agency Management', icon: 'fa-solid fa-hotel'},
+        {name: 'Random Password Generator', icon: 'fa-solid fa-lock'}
+    ]
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -18,5 +23,36 @@
                 <h4 class="relative z-9">Get in touch &rarr;</h4>
             </a>
         </div>
+    </section>
+
+
+
+
+    <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
+        <div class="flex flex-col gap-2 text-center">
+            <h6 class="text-lg sm:text-xl md:text-2xl">
+                A few of my projects
+            </h6>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+            <Step step={steps[0]}>
+                <p>The Tourism Agency Management System is a Full Stack CRUD application that helps agencies by streamlining hotel partnerships, optimizing customer reservations, and enabling efficient user and hotel management. It utilizes <strong class="text-violet-400">Java</strong> for both frontend and backend, with <strong class="text-violet-400">Swing UI</strong> for the frontend and <strong class="text-violet-400">PostgreSQL</strong> for the database.</p>
+            </Step>
+            <Step step={steps[1]}>
+                <p>The Veterinary Management System project, built with <strong class="text-violet-400">Java Spring Boot</strong>, offers a robust API for efficiently managing veterinary clinic operations. It includes features such as animal and customer management, vaccine administration tracking, appointment scheduling, and veterinary doctor management. With <strong class="text-violet-400">Spring Web, Spring Data JPA, and PostgreSQL</strong>, it provides a seamless experience for veterinary clinics to streamline their processes.</p>
+            </Step>
+            <Step step={steps[2]}>
+                <p>The Random Password Generator web app, constructed with <strong class="text-violet-400">HTML, CSS and JavaScript</strong>, enables users to effortlessly create random passwords tailored to their preferences. With a user-friendly interface allowing customization of password length and one-click copying to the clipboard, it offers a convenient solution for generating secure passwords.</p>
+            </Step>
+        </div>
+    </section>
+    <section id="about" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
+        <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700
+        after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4">
+            <h6 class="text-lg sm:text-xl md:text-2xl"> Want to know more? </h6>
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">A bit <span class="poppins text-violet-400">about</span> me.</h3>
+        </div>
+        <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">I am . . .</p>
+        <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]"></div>
     </section>
 </main>
