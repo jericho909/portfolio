@@ -41,13 +41,13 @@
             </h6>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-            <Step step={steps[0]}>
+            <Step step={{...steps[0], href:"https://github.com/jericho909/hotel_management"}}>
                 <p>The Tourism Agency Management System is a Full Stack CRUD application that helps agencies by streamlining hotel partnerships, optimizing customer reservations, and enabling efficient user and hotel management. It utilizes <strong class="text-violet-400">Java</strong> for both frontend and backend, with <strong class="text-violet-400">Swing UI</strong> for the frontend and <strong class="text-violet-400">PostgreSQL</strong> for the database.</p>
             </Step>
-            <Step step={steps[1]}>
+            <Step step={{...steps[1], href: "https://github.com/jericho909/veterinary"}}>
                 <p>The Veterinary Management System project, built with <strong class="text-violet-400">Java Spring Boot</strong>, offers a robust API for efficiently managing veterinary clinic operations. It includes features such as animal and customer management, vaccine administration tracking, appointment scheduling, and veterinary doctor management. With <strong class="text-violet-400">Spring Web, Spring Data JPA, and PostgreSQL</strong>, it provides a seamless experience for veterinary clinics to streamline their processes.</p>
             </Step>
-            <Step step={steps[2]}>
+            <Step step={{...steps[2], href: "https://jericho909.github.io/randompassword/"}}>
                 <p>The Random Password Generator web app, constructed with <strong class="text-violet-400">HTML, CSS and JavaScript</strong>, enables users to effortlessly create random passwords tailored to their preferences. With a user-friendly interface allowing customization of password length and one-click copying to the clipboard, it offers a convenient solution for generating secure passwords.</p>
             </Step>
         </div>
