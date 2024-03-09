@@ -1,38 +1,16 @@
-# create-svelte
+# Portfolio Website
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This is the repository for my personal portfolio website built using Svelte, Tailwind CSS, and JavaScript.
 
-## Creating a project
+## Overview
 
-If you're seeing this, you've probably already done this step. Congrats!
+This portfolio website serves as a showcase of my skills, projects, and experiences. It is designed to provide visitors with an overview of my background, expertise, and accomplishments in the field of software development.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Features
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+-   **Responsive Design**: The website is fully responsive and optimized for various devices and screen sizes.
+-   **Dynamic Content**: Utilizing Svelte's reactive capabilities, the website offers dynamic content rendering for an interactive user experience.
+-   **Tailwind CSS Styling**: Tailwind CSS is used for styling, allowing for rapid development and easy customization.
+-   **Project Showcase**: A dedicated section highlights my projects, including descriptions, technologies used, and links to live demos or GitHub repositories.
+-   **Skills & Expertise**: Visitors can explore my skills and areas of expertise, providing insight into my capabilities as a software developer.
+-   **Contact Form**: An integrated contact form enables visitors to reach out to me directly for inquiries, collaborations, or job opportunities.
