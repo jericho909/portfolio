@@ -1,9 +1,15 @@
 <script>
     import Step from "./Step.svelte";
     let steps = [
-        {name: 'Veterinary Management System', icon: 'fa-solid fa-shield-dog'},
-        {name: 'Tourism Agency Management', icon: 'fa-solid fa-hotel'},
+        {name: 'Tourism Agency Management', icon: 'fa-solid fa-shield-dog'},
+        {name: 'Veterinary Management System', icon: 'fa-solid fa-hotel'},
         {name: 'Random Password Generator', icon: 'fa-solid fa-lock'}
+    ]
+
+    let benefits = [
+        {name: "a lawyer turned software developer", description: "My background in law provides me with a unique perspective on problem-solving and attention to detail. I am adept at analyzing complex information, drafting precise documents, and adhering to strict deadlines. These skills translate seamlessly into software development, where accuracy and efficiency are paramount."},
+        {name: "an excellent communicator", description: "Having served as a partner attorney and founding attorney in legal firms, I have honed my communication skills through client interactions, negotiations, and courtroom presentations. This experience translates into effective communication within software development teams, fostering collaboration, clarity, and efficiency in project execution."},
+        {name: "continuous learner", description: "Driven by a passion for technology and a commitment to professional growth, I thrive in dynamic environments where learning is ongoing. Whether mastering new programming languages or staying abreast of industry trends, my adaptive learning mindset empowers me to quickly acquire new skills and adapt to the ever-changing demands of the software development landscape."}
     ]
 </script>
 
@@ -53,6 +59,22 @@
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">A bit <span class="poppins text-violet-400">about</span> me.</h3>
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">I am . . .</p>
-        <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]"></div>
+        <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
+           {#each benefits as benefit, index}
+                <div class="flex gap-6 sm:gap-8">
+                    <p
+                        class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
+                    >
+                        0{index + 1}
+                    </p>
+                    <div class="flex flex-col gap-6 sm:gap-8">
+                        <h3 class="text-2xl sm:text-3xl md:text-5xl">
+                            {benefit.name}
+                        </h3>
+                        <p>{benefit.description}</p>
+                    </div>
+                </div>
+            {/each}
+        </div>
     </section>
 </main>
