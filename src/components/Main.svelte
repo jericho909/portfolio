@@ -20,7 +20,7 @@
                 Hi! I'm <span class="poppins text-violet-400">Ömer Ahmet</span> Yücel.<br/> Full Stack <span class="poppins text-violet-400">Developer.</span>
             </h2>
             <p class="text-base sm:text-lg md.text-xl">
-                My <span class="text-violet-400">favorite tech</span> includes Java (Spring Boot), JavaScript(SvelteKit or React), TailwindCSS, PostgreSQL!
+                My <span class="text-violet-400">favorite tech</span> includes Java (Spring Boot), JavaScript (Svelte or React), TailwindCSS, PostgreSQL!
             </p>
             <a href="https://www.linkedin.com/in/omerahmetyucel/" target="_blank" class="blueShadow mx-auto lg:auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 rounded-full bg-white text-slate-950 cursor-pointer">
                 <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200">
@@ -48,7 +48,7 @@
                 <p>The Veterinary Management System project, built with <strong class="text-violet-400">Java Spring Boot</strong>, offers a robust API for efficiently managing veterinary clinic operations. It includes features such as animal and customer management, vaccine administration tracking, appointment scheduling, and veterinary doctor management. With <strong class="text-violet-400">Spring Web, Spring Data JPA, and PostgreSQL</strong>, it provides a seamless experience for veterinary clinics to streamline their processes.</p>
             </Step>
             <Step step={{...steps[2], href: "https://jericho909.github.io/randompassword/"}}>
-                <p>The Random Password Generator web app, constructed with <strong class="text-violet-400">HTML, CSS and JavaScript</strong>, enables users to effortlessly create random passwords tailored to their preferences. With a user-friendly interface allowing customization of password length and one-click copying to the clipboard, it offers a convenient solution for generating secure passwords.</p>
+                <p>The Random Password Generator web app, constructed with <strong class="text-violet-400">HTML, CSS</strong> and <strong class="text-violet-400">JavaScript</strong>, enables users to effortlessly create random passwords tailored to their preferences. With a user-friendly interface allowing customization of password length and one-click copying to the clipboard, it offers a convenient solution for generating secure passwords.</p>
             </Step>
         </div>
     </section>
