@@ -1,8 +1,8 @@
 <script>
     import Step from "./Step.svelte";
     let steps = [
-        {name: 'Tourism Agency Management', icon: 'fa-solid fa-shield-dog'},
-        {name: 'Veterinary Management System', icon: 'fa-solid fa-hotel'},
+        {name: 'Tourism Agency Management', icon: 'fa-solid fa-hotel'},
+        {name: 'Veterinary Management System', icon: 'fa-solid fa-shield-dog'},
         {name: 'VoiceScroll', icon: 'fa-solid fa-microphone-lines'}
     ]
 
